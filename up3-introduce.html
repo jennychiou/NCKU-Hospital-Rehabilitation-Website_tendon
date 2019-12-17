@@ -1,0 +1,383 @@
+﻿<!DOCTYPE HTML>
+<!--
+    Massively by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>復健方式 — 伸直肌鍵</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/up3-introduce.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+</head>
+<body class="is-loading" onload="initialPage()">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="#" id="tt" class="logo" style="font-family:'Microsoft JhengHei';">復健方式 — 錘狀指</a>
+        </header>
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links clearfix">
+                <li><a style="cursor:pointer;" a href="up2-introduce.html">回復健方式介紹</a></li>
+                <li><a href="#tab1" onclick="myFunction()">錘狀指</a></li>
+                <li><a href="#tab2" onclick="myFunction1()">鈕扣指</a></li>
+                <li><a href="#tab3" onclick="myFunction2()">近端掌指及前臂伸直肌腱受損</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main" style="padding:0px;">
+            <section style="padding:0px;">
+                <center style="padding:0px;">
+                    <div id="tab1" class="content" style="display:none; padding:2%;">
+                        <div class="weekbox">
+                            <div class="weekbtn weekbtnactive" onclick="weekChange(1)">
+                                1-6週
+                            </div>
+                            <div class="weekbtn" onclick="weekChange(2)">
+                                第7週
+                            </div>
+                            <div class="weekbtn" onclick="weekChange(3)">
+                                第8週後
+                            </div>
+                        </div>
+
+                        <div class="box weekwrap">
+                            <ol>
+                                <li>
+                                    穿戴副木
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li style="margin-top:-5px;">副木固定遠端指間關節(DIPJ)關節 10<sup>o</sup> hyperextension</li>
+                                        <li style="margin-top:-5px;">
+                                            近端指間關節(PIPJ)於穿戴著副木，而其活動不影響到副木穿戴情況下可彎曲。<br>
+                                            (注意事項：避免移除副木而造成肌腱再次斷裂)
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="box weekwrap" style="display:none;">
+                            <ol>
+                                <li>經治療師及醫師評估後移除副木</li>
+                                <li style="margin-top:5px;">持續水腫控制及疤痕照護</li>
+                                <li style="margin-top:5px;">
+                                    此週數仍癒合不足，可做非常緩和的主動彎曲運動(不超過彎曲 20-25 度)
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li style="margin-top:-5px;">若彎了之後能夠馬上再伸直則可繼續接下來的復健計畫</li>
+                                        <li style="margin-top:-5px;">若有伸肌遲滯(extensor lag)發生，全天的副木穿戴再多維持兩週、夜間的副木穿戴多維持 4 週</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="box weekwrap" style="display:none;">
+                            <ol>
+                                <li>第8週 — 若無伸肌遲滯(extensor lag)發生，遠端指間關節(DIPJ)可彎曲至 35 度</li>
+                                <li style="margin-top:5px;">第9週 — 針對指尖進行減敏感活動，可逐漸加入取物和協調訓練</li>
+                                <li style="margin-top:5px;">第12週 — 可逐漸加入重阻力性運動</li>
+                                <li style="margin-top:5px;">在術後 3 個月後才可做所有的活動</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="tab2" class="content" style="display:none; padding:2%;">
+                        <div class="weekbox">
+                            <div class="weekbtn weekbtnactive" onclick="weekChange(1)">
+                                1-4週
+                            </div>
+                            <div class="weekbtn" onclick="weekChange(2)">
+                                第5週
+                            </div>
+                            <div class="weekbtn" onclick="weekChange(3)">
+                                第6-7週
+                            </div>
+                            <div class="weekbtn" onclick="weekChange(4)">
+                                8-10週
+                            </div>
+                        </div>
+
+                        <div class="box weekwrap">
+                            <ol>
+                                <li>
+                                    穿戴副木
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li>副木固定近端指間關節(PIPJ) 伸直在 0<sup>o</sup><br />(注意事項：避免移除副木而造成肌腱再次斷裂)</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    傷口照護
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li>避免碰水</li>
+                                        <li style="margin-top:-15px;">保持傷口清潔</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    水腫控制與預防技巧
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li>將手抬高至心臟高度</li>
+                                        <li style="margin-top:-15px;">拆線傷口癒合後，可做向心按摩(從手指末端朝手肘方按摩)<i id="myImg1" class="fa fa-file-video-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    疤痕控制
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li>拆線後傷口癒合後可使用深壓按摩</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    運動
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li>第 4 週可做等長收縮運動(一天 5-6 次)</li>
+                                        <li style="line-height:25px;">若為合併骨折或骨關節炎(OA)的肌腱損傷，需視情況提前執行控制下的保護性被動彎曲運動，約彎曲 0-25 度</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="box weekwrap" style="display:none;">
+                            <ol>
+                                <li>經治療師及醫師評估後移除副木</li>
+                                <li style="margin-top:5px;">第7週 — 針對指尖進行減敏感活動與輕阻力訓練</li>
+                                <li>持續水腫控制及疤痕照護</li>
+                                <li>
+                                    運動
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li>近端指間關節(PIPJ)關節主動彎曲 0-25 度(屈曲不超過20-25度)</li>
+                                        <li style="margin-top:-15px;">遠端指間關節(DIPJ)關節主動彎曲運動</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="box weekwrap" style="display:none;">
+                            <ol>
+                                <li>持續水腫及疤痕控制</li>
+                                <li>
+                                    運動
+                                    <ul>
+                                        <li>在掌指關節(MPJ)彎曲的情況下，扶住近端指骨，並做近端指間關節(PIPJ)彎曲和伸直的運動<i id="myImg2" class="fa fa-file-video-o" style="cursor:pointer;margin-left:5px;"></i><i id="myImg3" class="fa fa-file-image-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                    </ul>
+                                </li>
+                                <li>可開始使用患手執行功能性活動，例如拿取衛生紙或杯子<i id="myImg4" class="fa fa-file-image-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                            </ol>
+                        </div>
+                        <div class="box weekwrap" style="display:none;">
+                            <ol>
+                                <li>肌腱滑動運動<i id="myImg5" class="fa fa-file-video-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                <li>漸進式阻力性運動<i id="myImg6" class="fa fa-file-video-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="tab3" class="content" style="display:none; padding:2%;">
+                        <div class="weekbox">
+                            <div class="weekbtn weekbtnactive" onclick="weekChange(1)">
+                                1-4週
+                            </div>
+                            <div class="weekbtn" onclick="weekChange(2)">
+                                第5週
+                            </div>
+                            <div class="weekbtn" onclick="weekChange(3)">
+                                第6週後
+                            </div>
+                            <div class="weekbtn" onclick="weekChange(4)">
+                                第7週後
+                            </div>
+                        </div>
+
+                        <div class="box weekwrap">
+                            <ol>
+                                <li>
+                                    穿戴副木
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li>
+                                            副木固定手腕伸直 40 度、掌指關節(MPJ)0 -20 度彎曲、指間關節(IPJ)O 度 <br>
+                                            (注意事項：避免移除副木而造成肌腱再次斷裂)
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    傷口照護
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li>避免碰水</li>
+                                        <li style="margin-top:-15px;">保持傷口清潔</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    水腫控制與預防技巧
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li>將手抬高至心臟高度</li>
+                                        <li style="margin-top:-15px;">拆線傷口癒合後，可做向心按摩(從手指末端朝手肘方按摩)<i id="myImg7" class="fa fa-file-video-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    疤痕控制
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li>拆線後傷口癒合後可使用深壓按摩<i id="myImg8" class="fa fa-file-video-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="box weekwrap" style="display:none;">
+                            <ol>
+                                <li>經治療師及醫師評估後移除副木</li>
+                                <li>持續水腫控制及疤痕照護</li>
+                                <li>
+                                    運動
+                                    <ul style="margin:0 0 15px 10px;">
+                                        <li>主動手腕及手指伸直的運動，以增加肌腱的滑動</li>
+                                        <li style="margin-top:-15px;">個別手指的伸直運動</li>
+                                        <li style="margin-top:-15px;">勾狀手(Intrinsic minus)和平板手(intrinsic plus)的運動<i id="myImg9" class="fa fa-file-video-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                        <li style="margin-top:-15px;">可做手腕和手指被動伸直運動</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="box weekwrap" style="display:none;">
+                            <ol>
+                                <li>持續水腫及疤痕控制</li>
+                                <li>
+                                    運動
+                                    <ul>
+                                        <li>手腕及掌指關節(MPJ)、指間關節(IPJ)關節的被動關節活動運動，一天 8 次<i id="myImg10" class="fa fa-file-image-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                        <li style="margin-top:-15px;">繼續主動關節活動運動</li>
+                                        <li style="margin-top:-15px;">逐漸提升手指彎曲的角度</li>
+                                        <li style="margin-top:-15px;">肌腱滑動運動(tendon gliding exercise)<i id="myImg11" class="fa fa-file-video-o" style="cursor:pointer;margin-left:5px;"></i><i id="myImg12" class="fa fa-file-image-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="box weekwrap" style="display:none;">
+                            <ol>
+                                <li>可開始使用患手執行功能性活動，例如拿取衛生紙或紙杯<i id="myImg13" class="fa fa-file-image-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                <li>可進行輕阻力活動，但初期不可過度負重，阻力需視狀況逐漸增加<i id="myImg14" class="fa fa-file-video-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                <li>重阻力運動應於第 10-12 週時再給予</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- The Modal -->
+                    <div id="myModal1" class="modal">
+                        <span class="close1">&times;</span>
+                        <img class="modal2-content" id="img01">
+                        <div id="caption1"></div>
+                    </div>
+                    <div id="myModal2" class="modal">
+                        <span class="close2">&times;</span>
+                        <img class="modal-content" id="img02">
+                        <div id="caption2"></div>
+                    </div>
+                    <div id="myModal3" class="modal">
+                        <span class="close3">&times;</span>
+                        <img class="modal-content" id="img03">
+                        <div id="caption3"></div>
+                    </div>
+                    <div id="myModal4" class="modal">
+                        <span class="close4">&times;</span>
+                        <img class="modal-content" id="img04">
+                        <div id="caption4"></div>
+                    </div>
+                    <div id="myModal5" class="modal">
+                        <span class="close5">&times;</span>
+                        <img class="modal-content" id="img05">
+                        <div id="caption5"></div>
+                    </div>
+                    <div id="myModal6" class="modal">
+                        <span class="close6">&times;</span>
+                        <img class="modal-content" id="img06">
+                        <div id="caption6"></div>
+                    </div>
+                    <div id="myModal7" class="modal">
+                        <span class="close7">&times;</span>
+                        <img class="modal2-content" id="img07">
+                        <div id="caption7"></div>
+                    </div>
+                    <div id="myModal8" class="modal">
+                        <span class="close8">&times;</span>
+                        <img class="modal-content" id="img08">
+                        <div id="caption8"></div>
+                    </div>
+                    <div id="myModal9" class="modal">
+                        <span class="close9">&times;</span>
+                        <img class="modal-content" id="img09">
+                        <div id="caption9"></div>
+                    </div>
+                    <div id="myModal10" class="modal">
+                        <span class="close10">&times;</span>
+                        <img class="modal3-content" id="img10">
+                        <div id="caption10"></div>
+                    </div>
+                    <div id="myModal11" class="modal">
+                        <span class="close11">&times;</span>
+                        <img class="modal-content" id="img11">
+                        <div id="caption11"></div>
+                    </div>
+                    <div id="myModal12" class="modal">
+                        <span class="close12">&times;</span>
+                        <img class="modal-content" id="img12">
+                        <div id="caption12"></div>
+                    </div>
+                    <div id="myModal13" class="modal">
+                        <span class="close13">&times;</span>
+                        <img class="modal-content" id="img13">
+                        <div id="caption13"></div>
+                    </div>
+                    <div id="myModal14" class="modal">
+                        <span class="close14">&times;</span>
+                        <img class="modal-content" id="img14">
+                        <div id="caption14"></div>
+                    </div>
+                </center>
+            </section>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/up3-introduce.js"></script>
+
+    <script>
+        $(function () {
+            var $li = $('ul.clearfix li');
+
+            // 進入時預設點擊第一個頁籤，除了第一個 content 其他 content 隱藏
+            $($li.eq(0).addClass('active').find('a').attr('href')).siblings('.content').hide();
+
+            $li.click(function () {
+                $($(this).find('a').attr('href')).show().siblings('.content').hide();
+                $(this).addClass('active').siblings('.active').removeClass('active');
+            });
+        });
+
+        function myFunction() {
+            document.getElementById("tt").innerHTML = "復健方式  — 錘狀指";
+            weekChange(1);
+        }
+        function myFunction1() {
+            document.getElementById("tt").innerHTML = "復健方式  — 鈕扣指";
+            weekChange(1);
+        }
+        function myFunction2() {
+            document.getElementById("tt").innerHTML = "復健方式  — 近端掌指及前臂伸直肌腱受損";
+            weekChange(1);
+        }
+
+        function initialPage() {
+            var url = location.href;
+            var targetTab = url.split("#")[1];
+            document.getElementById(targetTab).style.display = "block";
+        }
+    </script>
+</body>
+</html>

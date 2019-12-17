@@ -1,0 +1,301 @@
+﻿<!DOCTYPE HTML>
+<!--
+    Massively by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>復健方式 — 屈指肌鍵</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/up2-introduce.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body class="is-loading">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="#" id="tt" class="logo" style="font-family:'Microsoft JhengHei';">復健方式 — 屈指肌腱</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links clearfix">
+                <li><a style="cursor:pointer;" a href="introduce.html">回介紹</a></li>
+                <li><a href="#tab1" onclick="myFunction()">屈指肌腱</a></li>
+                <li><a href="#tab2" onclick="myFunction1()">伸直肌腱</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main" style="padding:0px;">
+            <section style="padding:0px;">
+                <center style="padding:0px;">
+                    <div id="tab1" class="content" style="padding:2%;">
+                        <div class="weekbox">
+                            <button id="btnweek1" class="btnweek activeweek" onclick="btnweek1()">1-3週</button>
+                            <button id="btnweek2" class="btnweek" onclick="btnweek2()">4-6週</button>
+                            <button id="btnweek3" class="btnweek" onclick="btnweek3()">6-8週</button>
+                            <button id="btnweek4" class="btnweek" onclick="btnweek4()">8-12週</button>
+                        </div>
+                        <div id="flexor">
+                            <div class="flexor1">
+                                <div class="flexor_warpper">
+                                    <ol>
+                                        <li>
+                                            穿戴副木
+                                            <ul style="margin:0 0 15px 10px;">
+                                                <li>需穿戴副木三週(注意事項：避免移除副木而造成肌腱再次斷裂)<i id="myImg1" class="fa fa-file-image-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                                <li style="margin-top:-15px;">避免近端指間關節屈曲攣縮</li>
+                                            </ul>
+                                        </li>
+                                        <li>傷口照護(避免碰水、保持傷口清潔)</li>
+                                        <li>
+                                            水腫控制與預防技巧
+                                            <ul style="margin:0 0 15px 10px;">
+                                                <li>將手抬高至心臟高度</li>
+                                                <li style="margin-top:-15px;">拆線傷口癒合後，可做向心按摩(從手指末端朝手肘方向按摩)<i id="myImg2" class="fa fa-file-video-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                            </ul>
+                                        </li>
+                                        <li>執行控制性活動<i id="myImg3" class="fa fa-file-image-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                        <li>
+                                            疤痕控制
+                                            <ul style="margin:0 0 15px 10px;">
+                                                <li>拆線後傷口癒合後可使用深壓按摩</li>
+                                            </ul>
+                                        </li>
+                                        <li>三週時經醫師評估後可轉介復健部職能治療，訂定後續復健計畫</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="flexor2" style="display:none;">
+                                <div class="flexor_warpper">
+                                    <ol>
+                                        <li>經治療師評估後移除副木，改用護腕允許部分手腕動作<i id="myImg4" class="fa fa-file-image-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                        <li>
+                                            增進肌腱滑動範圍
+                                            <ul style="margin:0 0 15px 10px;">
+                                                <li>第4週 — 主動手指屈曲和放置並保持(Place and hold)運動</li>
+                                                <li style="margin-top:-15px;">第5週 — 肌腱滑動運動<i id="myImg5" class="fa fa-file-image-o" style="cursor:pointer;margin-left:5px;"></i>
+                                                <li style="margin-top:-15px;">第5週 — 藉由輕柔伸展運動防止近端指間關節屈曲攣縮和腕關節攣縮</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            持續水腫控制
+                                            <ul style="margin:0 0 15px 10px;">
+                                                <li>五週後可將手臂伸直舉高，並做重複握拳的運動</li>
+                                            </ul>
+                                        </li>
+                                        <li>持續疤痕控制</li>
+                                        <li>此階段不可從事阻力性活動 </li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="flexor3" style="display:none;">
+                                <div class="flexor_warpper">
+                                    <ol>
+                                        <li>
+                                            主動肌腱滑行完全範圍以及兩條肌腱(屈指伸肌與淺肌)的最大個別性滑動
+                                            <ul style="margin:0 0 15px 10px;">
+                                                <li>Blocking運動<i id="myImg6" class="fa fa-file-image-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                                <li style="margin-top:-15px;">攣縮控制(溫和地被動拉伸肌腱和副木使用)</li>
+                                                <li style="margin-top:-15px;">加強手和上肢肌力<i id="myImg7" class="fa fa-file-image-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                            </ul>
+                                        </li>
+                                        <li>持續水腫及疤痕控制</li>
+                                        <li>可開始使用患手執行功能性活動，例如拿取牙刷或杯子</li>
+                                        <li>經治療師評估，可進行輕阻力運動(1-3磅)</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="flexor4" style="display:none;">
+                                <div class="flexor_warpper">
+                                    <ol>
+                                        <li>
+                                            重阻力訓練
+                                            <ul style="margin:0 0 15px 10px;">
+                                                <li>以提升肌力與肌耐力為主要目標</li>
+                                                <li style="margin-top:-15px;">訓練時阻力的量及時間都要提升（握力和捏力測量）<i id="myImg8" class="fa fa-file-image-o" style="cursor:pointer;margin-left:5px;"></i></li>
+                                            </ul>
+                                        </li>
+                                        <li>重返工作崗位：工作強化訓練</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModal1" class="modal">
+                        <span class="close1">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption1"></div>
+                    </div>
+                    <div id="myModal2" class="modal">
+                        <span class="close2">&times;</span>
+                        <img class="modal2-content" id="img02">
+                        <div id="caption2"></div>
+                    </div>
+                    <div id="myModal3" class="modal">
+                        <span class="close3">&times;</span>
+                        <img class="modal-content" id="img03">
+                        <div id="caption3"></div>
+                    </div>
+                    <div id="myModal4" class="modal">
+                        <span class="close4">&times;</span>
+                        <img class="modal-content4" id="img04">
+                        <div id="caption4"></div>
+                    </div>
+                    <div id="myModal5" class="modal">
+                        <span class="close5">&times;</span>
+                        <img class="modal-content" id="img05">
+                        <div id="caption5"></div>
+                    </div>
+                    <div id="myModal6" class="modal">
+                        <span class="close6">&times;</span>
+                        <img class="modal-content" id="img06">
+                        <div id="caption6"></div>
+                    </div>
+                    <div id="myModal7" class="modal">
+                        <span class="close7">&times;</span>
+                        <img class="modal-content" id="img07">
+                        <div id="caption7"></div>
+                    </div>
+                    <div id="myModal8" class="modal">
+                        <span class="close8">&times;</span>
+                        <img class="modal3-content" id="img08">
+                        <div id="caption8"></div>
+                    </div>
+                    <div id="myModal9" class="modal">
+                        <span class="close9">&times;</span>
+                        <img class="modal-content" id="img09">
+                        <div id="caption9"></div>
+                    </div>
+                    <div id="myModal10" class="modal">
+                        <span class="close10">&times;</span>
+                        <img class="modal-content" id="img10">
+                        <div id="caption10"></div>
+                    </div>
+                    <div id="myModal11" class="modal">
+                        <span class="close11">&times;</span>
+                        <img class="modal-content4" id="img11">
+                        <div id="caption11"></div>
+                    </div>
+                    <div id="myModal12" class="modal">
+                        <span class="close12">&times;</span>
+                        <img class="modal-content4" id="img12">
+                        <div id="caption12"></div>
+                    </div>
+                    <div id="tab2" class="content" style="display:none;padding:2%;">
+                        <div id="main">
+                            <!-- Posts -->
+                            <section class="posts">
+                                <article>
+                                    <header>
+                                        <ul class="actions special">
+                                            <li><a href="up3-introduce.html#tab1" onclick="toggleVideo()" class="button fit" style="font-family:'Microsoft JhengHei';font-size:16px;">錘狀指</a></li>
+                                        </ul>
+                                    </header>
+                                    <a href="up3-introduce.html#tab1" class="image fit" onclick="toggleVideo()"><img src="images/tendon_tab2_pic1.png" alt="" /></a>
+                                </article>
+                                <article>
+                                    <header>
+                                        <ul class="actions special">
+                                            <li><a href="up3-introduce.html#tab2" class="button fit" onclick="toggleVideo1()" style="font-family:'Microsoft JhengHei';font-size:16px;">鈕扣指</a></li>
+                                        </ul>
+                                    </header>
+                                    <a href="up3-introduce.html#tab2" class="image fit"><img src="images/tendon_tab2_pic2.png" alt="" /></a>
+                                </article>
+                                <article>
+                                    <header>
+                                        <ul class="actions special">
+                                            <li><a href="up3-introduce.html#tab3" class="button fit" onclick="toggleVideo('hide')" style="font-family:'Microsoft JhengHei';font-size:16px;">近端掌指及前臂伸直肌腱受損</a></li>
+                                        </ul>
+                                    </header>
+                                    <a href="up3-introduce.html#tab3" class="image fit" onclick="toggleVideo('hide')"><img src="images/tendon_tab2_pic3.png" alt="" /></a>
+                                </article>
+                            </section>
+                        </div>
+                        <div><a class="btn btn-sm animated-button victoria-three" href="images/up-introduce/tendonhand.jpg" data-lightbox="image-1" data-title="伸直肌鍵位置對應圖">伸直肌鍵位置對應圖</a></div>
+                    </div>
+                </center>
+            </section>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/up2-introduce.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("tab1");
+        var btns = header.getElementsByClassName("btnweek");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("activeweek");
+                current[0].className = current[0].className.replace(" activeweek", "");
+                this.className += " activeweek";
+            });
+        }
+    </script>
+
+    <script>
+        $(function () {
+            var $li = $('ul.clearfix li');
+            // 進入時預設點擊第一個頁籤，除了第一個 content 其他 content 隱藏
+            $($li.eq(0).addClass('active').find('a').attr('href')).siblings('.content').hide();
+            $li.click(function () {
+                $($(this).find('a').attr('href')).show().siblings('.content').hide();
+                $(this).addClass('active').siblings('.active').removeClass('active');
+            });
+        });
+
+        function myFunction() {
+            document.getElementById("tt").innerHTML = "復健方式 — 屈指肌腱";
+        }
+        function myFunction1() {
+            document.getElementById("tt").innerHTML = "復健方式 — 伸直肌腱";
+        }
+
+        function toggleVideo(state) {
+            // if state == 'hide', hide. Else: show video
+            var div = document.getElementById("tab1");
+            var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+            func = state == 'hide' ? 'pauseVideo' : 'playVideo';
+            iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+        }
+        function toggleVideo1(state) {
+            // if state == 'hide', hide. Else: show video
+            var div = document.getElementById("tab3");
+            var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+            func = state == 'hide' ? 'pauseVideo' : 'playVideo';
+            iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+        }
+        function toggleVideo2(state) {
+            // if state == 'hide', hide. Else: show video
+            var div = document.getElementById("tab4");
+            var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+            func = state == 'hide' ? 'pauseVideo' : 'playVideo';
+            iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+        }
+    </script>
+</body>
+</html>
